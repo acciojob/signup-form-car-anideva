@@ -8,6 +8,65 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="#" method="post">
+		<!-- name -->
+		<label for="name">Name:</label>
+		<input type ="text" id ="name" required placeholder="Name"
+			<br> <br>
+
+			<!-- email -->
+		<label for="email">Email:</label>
+		<input type ="text" id ="email" required placeholder="Email"
+<br> <br>
+			<!-- gender -->
+		<label>Gender:</label>
+		<input type="radio" id ="gender_m" name="gender" value="male" required>
+		<label for="gender_m">Male</label>
+		
+		<input type="radio" id ="gender_f" name="gender" value="female" required>
+		<label for="gender_f">Female</label>
+
+		<br> <br>
+
+		<!-- car brands -->
+		<label for="cars">Car Brands:</label>
+<select id="cars" name="cars" required>
+	<option value="">-- Please choose an option--</option>
+<option value="bmw">BMW</option>	
+	<option value="swift">SWIFT</option>	
+	<option value="alto">ALTO</option>	
+	<option value="tiago">TIAGO</option>	
+	<option value="auto">AUTO</option>	
+	
+	<br><br>
+<!-- AGE -->
+	 <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required placeholder="Age">
+    <br><br>
+	
+	<!-- DOB -->
+	<label for ="dob">DOB:</label>
+	<input type="date" id="dob" name="dob" required>
+
+	<br><br>
+	<!-- phone number -->
+	<label for ="phone number">Phone Number:</label>
+	<input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
+	<br><br>
+
+	<!-- password -->
+	<label for="password">Password</label>
+	<input type="password" id="password" name="password" required password="Password">
+	<br><br>
+
+	<!-- TOS -->
+	<input type="checkbox" id="ios" name="tos" required>
+	<lebel for="tos">I agree to the TOS</lebel>
+	<br><br>
+	<!-- submit -->
+	<button type="submit">Submit</button>
+	
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
